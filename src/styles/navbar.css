@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nav-bar{
+    width: 99%;
+    height: 40px;
+    border: 1px solid grey;
+    color: #FC5404;
+    /* font-size: 2rem; */
+    font-weight: 600;
+    text-align: start;
+    padding: 15px;
+    position: relative;
+    
+  }
+
+  .nav-bar form input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+    height: 35px;
+    width: 100%;
+  }
+
+
+  .nav-bar form p{
+      font-size: 1rem;
+      color: #ffffff;
+      padding-top: 10px;
+  }
+
+  .nav-bar button {
+      border: none;
+      border-radius: 3px;
+      color: #ffffff;
+      font-size: 1rem;
+      height: 35px;
+      /* width: 100%; */
+      background-color: #FC5404;
+      margin-top: 20px;
+
+  }
+
+  .icon {
+    /* background-color: #FC5404; */
+    position: absolute;
+    right: 560px;
+    top: 20px;
+  }
+  
+
+  .login {
+      position: absolute;
+      top: 70px;
+      bottom: -70px;
+      right: 400px;
+      padding: 20px;
+      transform: scale(0);
+      transition: 0.5s;
+      transform-origin:top;
+      width: 20%;
+      
+      
+  }
+
+  .login.open{
+    transform: scale(1);
+    position: absolute;
+    background-color: #082032;
+    height: 280%;
+    border-radius: 3px;
+    
+  }
+
+  

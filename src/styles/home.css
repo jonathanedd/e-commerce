@@ -1,0 +1,26 @@
+form {
+    padding-top: 40px;
+}
+.input {
+    width: 50%;
+    height: 40px;
+    border: 0.5px solid rgba(6, 6, 6, 0.59);
+    border-radius: 10px;
+    
+}
+
+.home-products-cards ul li{
+    width: 300px;
+    text-align: start;
+    display: inline-block;
+    font-size: 0.9rem;
+    border-radius: 1px solid black;
+    margin: 50px;
+    box-shadow: 4px 4px 10px 8px  rgba(0, 0, 0, .3);
+    
+}
+
+.products-list li img {
+    min-width: 200px;
+    padding-left: 30px;
+}
