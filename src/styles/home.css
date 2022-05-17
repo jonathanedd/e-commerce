@@ -78,6 +78,7 @@ form {
     }
     .home-products-cards {
         background-color: #D1D1D1;
+        padding-bottom: 40px;
     }
     
 
@@ -98,6 +99,7 @@ form {
     .home-products-cards h3 {
         font-size: 1.5rem;
         color: #F05454;
+        
     }
     
     
