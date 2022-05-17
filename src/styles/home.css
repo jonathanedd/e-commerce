@@ -59,7 +59,8 @@ form {
         background-color: #30475E;
         border-radius: 5px;
         color: #F05454;
-        margin-bottom: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
         box-shadow: 15px, 15px, 15px rgb(0, 0, 0);
     }
     button {
@@ -71,5 +72,79 @@ form {
         background-color: #30475E;
         border-radius: 5px;
         color: #F05454;
+
+        
     }
+    
+
+    .home-products-cards {
+        background-color: #DDDDDD;
+        
+        
+    }
+    .home-products-cards h1 {
+        font-size: 1.5rem;
+        color: #082032 ;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-products-cards h3 {
+        font-size: 1.5rem;
+        color: #F05454;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .input {
+        width: 90%;
+        text-align: center;
+    }
+    .search-button{
+        width: 400px;
+        height: 35px;
+        font-size: 1rem;
+        border: none;
+        background-color: #30475E;
+        border-radius: 5px;
+        color: #F05454;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 15px, 15px, 15px rgb(0, 0, 0);
+    }
+    button {
+        width: 120px;
+        height: 35px;
+        margin: 3px;
+        font-size: 1rem;
+        border: none;
+        background-color: #30475E;
+        border-radius: 5px;
+        color: #F05454;
+
+        
+    }
+    
+
+    .home-products-cards {
+        background-color: #DDDDDD;
+        
+        
+        
+    }
+    .home-products-cards h1 {
+        font-size: 1.5rem;
+        color: #082032 ;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-products-cards h3 {
+        font-size: 1.5rem;
+        color: #F05454;
+    }
+    
+    
 }

@@ -83,7 +83,7 @@
  @media only screen and (max-width: 600px) {
    .nav-bar{
     background-color: #082032;
-    width: 100%;
+    width: 95%;
    }
 
    .icon{
@@ -104,3 +104,29 @@
    }
    
  }
+
+
+ @media only screen and (min-width: 768px) {
+  .nav-bar{
+   background-color: #082032;
+   width: 100%;
+  }
+
+  .icon{
+    font-size: 1.2rem;
+    position: absolute;
+    right: 100px;
+  }
+
+  .icon-purchases{
+    font-size: 1.2rem;
+    position: absolute;
+    right: 200px;
+  }
+
+  .mini-nav{
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  
+}
