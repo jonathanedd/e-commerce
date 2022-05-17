@@ -77,11 +77,13 @@ form {
     }
     
 
-    .home-products-cards {
+    .home-products-cards ul li {
         background-color: #DDDDDD;
-        
-        
+        border-radius: 10px;
     }
+
+    
+
     .home-products-cards h1 {
         font-size: 1.5rem;
         color: #082032 ;
