@@ -50,6 +50,7 @@ form {
     .input {
         width: 90%;
         text-align: center;
+        background-color: #fff;
     }
     .search-button{
         width: 50%;
@@ -75,10 +76,13 @@ form {
 
         
     }
+    .home-products-cards {
+        background-color: #D1D1D1;
+    }
     
 
     .home-products-cards ul li {
-        background-color: #D1D1D1;
+        background-color: #fff;
         border-radius: 10px;
     }
 
@@ -132,10 +136,8 @@ form {
 
     .home-products-cards {
         background-color: #D1D1D1;
-        
-        
-        
-    }
+    } 
+
     .home-products-cards h1 {
         font-size: 1.5rem;
         color: #082032 ;
