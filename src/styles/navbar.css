@@ -9,7 +9,7 @@
     width: 99%;
     height: 40px;
     border: 1px solid grey;
-    color: #FC5404;
+    color: #F05454;
     /* font-size: 2rem; */
     font-weight: 600;
     text-align: start;
@@ -78,3 +78,29 @@
   }
 
   
+
+ /*Mobile design response¿ive */
+ @media only screen and (max-width: 600px) {
+   .nav-bar{
+    background-color: #082032;
+    width: 100%;
+   }
+
+   .icon{
+     font-size: 1.2rem;
+     position: absolute;
+     right: 100px;
+   }
+
+   .icon-purchases{
+     font-size: 1.2rem;
+     position: absolute;
+     right: 200px;
+   }
+
+   .mini-nav{
+     font-size: 1.2rem;
+     width: 100%;
+   }
+   
+ }
