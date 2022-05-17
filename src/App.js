@@ -5,6 +5,7 @@ import IsLoading from './components/IsLoading';
 import { Home, Products, Purchases, Shop } from './pages';
 import './styles/navbar.css';
 import NavBar from './components/NavBar.js';
+import Footer from './components/Footer';
 
 function App() {
   //Show / hide loading style
@@ -24,6 +25,8 @@ function App() {
           <Route path="/purchases" element={<Purchases />} />
         </Routes>
       </HashRouter>
+
+      <Footer />
     </div>
   );
 }

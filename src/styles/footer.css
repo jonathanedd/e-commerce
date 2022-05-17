@@ -1,0 +1,18 @@
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: #082032 ;
+    color: #F05454;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer h3 {
+    padding-top: 40px;
+    font-size: 1rem;
+}
+
+.footer h4{
+    padding-top: 20px;
+    font-size: 1rem;
+}
