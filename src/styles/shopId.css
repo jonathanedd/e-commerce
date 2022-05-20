@@ -82,6 +82,7 @@
 .shop.id{
     /* display: flex; */
     border: #082032;
+    background-color: #FC5404;
 }
 .shop-box-img{
     display: flex;
@@ -106,6 +107,7 @@
 }
 .shop-box-description{
      width: 90%;
+     margin-top: 30px;
 }
 .shop-box-description h1{
     color:#082032;
@@ -127,4 +129,59 @@
     font-size: 1.1rem;
     
 }
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+    .shop.id{
+        /* display: flex; */
+        border: #082032;
+    }
+    .shop-box-img{
+        display: flex;
+        
+    }
+    .images-hover{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    
+    .images-hover .over{
+        position: absolute;
+        transition: .5s;
+        opacity: 0;
+        width: 300px;
+        height: 300px;
+    }
+    .images-hover .over:hover{
+        opacity: 1;
+    }
+    .shop-box-description{
+         width: 90%;
+         margin-top: 30px;
+    }
+    .shop-box-description h1{
+        color:#082032;
+        text-align: start;
+        width: 100%;
+    }
+    .shop-box-description p {
+        font-size: 1rem;
+    }
+    .shop-box-description h3{
+        color:#F05454 ;
+    }
+    .add-cart-box{
+        background-color: #D1D1D1;
+    }
+    .add-cart-box button {
+        background-color: #082032;
+        color: #F05454;
+        font-size: 1.1rem;
+        
+    }
 }
