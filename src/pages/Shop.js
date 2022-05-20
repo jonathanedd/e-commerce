@@ -72,11 +72,16 @@ const Shop = () => {
         </div>
       </div>
 
-      <ul className="product-list-filter">
+      <ul className=" product-list-filter">
         {filterProducts.data?.products.map(productItem => (
           <li key={productItem.id}>
             <Link to={`/shop/${productItem.id}`}>
-              <img width="200px" src={productItem.productImgs} alt="" />
+              <img
+                className="images-shop"
+                src={productItem.productImgs[2]}
+                alt=""
+              />
+              {/* <img src={productItem.productImgs} alt="" /> */}
               <h1>{productItem.title}</h1>
               <h3>Price: ${productItem.price} USD</h3>
             </Link>
