@@ -13,15 +13,19 @@
 }
 
 .social-follow ul  {
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     list-style: none;
 }
 .social-follow ul li{
-    color: #F05454;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
+}
+
+.social-icon{
+    color:#F05454;
 }
 
 
