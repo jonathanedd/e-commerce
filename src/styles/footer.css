@@ -8,11 +8,24 @@
 }
 
 .footer h3 {
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 1rem;
 }
 
+.social-follow ul  {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.social-follow ul li{
+    color: #F05454;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
 .footer h4{
     padding-top: 20px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }

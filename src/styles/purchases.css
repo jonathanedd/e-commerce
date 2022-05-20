@@ -5,12 +5,12 @@
     right: 0;
     background-color: #fff;
     box-shadow: 2px 2px 8px rgba(0, 0, 0,  .3);
-    padding: 50px;
+    /* padding: 50px; */
     display: inline;
-    width: 200px;
+    /* width: 200px; */
     transform: translateX(300px);
     transition: 1s;
-    overflow: auto;
+    /* overflow: auto; */
     
 }
 
@@ -32,4 +32,13 @@
     height: 100vh;
     color: #000000;
     padding: 20px;
+}
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px){
+    .purchases-modal{
+
+    }
 }
